@@ -1,0 +1,84 @@
+/*MaKa-Dev*/
+/*Mahdi Kazemi*/
+@font-face {
+    font-family: vazirmatn;
+    src: url("../font/Vazirmatn-Regular.woff2") format("woff2");
+}
+
+body {
+    font-family: vazirmatn;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.badge {
+    margin-left: -16px;
+}
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, .1);
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-link:hover {
+    color: #6099ef !important;
+}
+
+/*header*/
+.header {
+    background: url("../images/banner-img-1.jpg") no-repeat top/cover;
+    padding-top: 105px;
+}
+
+.collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+/*special*/
+.special-img i {
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.special-img img {
+    transition: all 0.3s ease;
+}
+
+.special-img:hover img {
+    transform: scale(1.2);
+    transition: all .3s ease;
+}
+
+.offers {
+    background: url("../images/offer_img.jpg") center/cover no-repeat;
+}
+
+.offers .row {
+    min-height: 60vh;
+}
+
+/*footer*/
+.footer-link a {
+    transition: all .3s ease;
+}
+
+.footer-link a:hover {
+    color: #0a58ca !important;
+    transition: all .3s ease;
+}
